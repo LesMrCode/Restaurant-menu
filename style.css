@@ -1,0 +1,86 @@
+h4{
+    color: white;
+    text-align: center;
+}
+p{
+    color: red;
+}
+img{
+    height: 200px;
+    width: auto;
+    padding-left: 70px;
+}
+.menu-item{
+    display: flex;
+    gap: 1rem; 
+    padding-bottom: 50px;
+    color: white;
+}
+
+.menu-item img{
+    height: 200px;
+    width: 210px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.wrapper img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+.menu-item {
+    display: inline;
+    background-color: black;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 10px solid black;
+    border-width: 10px;
+    border-style: groove;
+    display: flex;
+    flex-direction: row;
+ padding-left: 10px;
+}
+.float-left{
+    float: left;
+    margin-right: 10px;
+}
+.text-image-container img{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.text-image-container p{
+    text-align: right;
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+}
+h4,h1,h3{
+    text-align: right;
+    text-align: center;
+    border: 10px;
+    border-style: groove;
+    border-color: black;
+}
+header{
+    background-color: black;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 110px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.wrapper{
+    background-color: white;
+}
